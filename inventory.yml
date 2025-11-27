@@ -1,7 +1,6 @@
 all:
- children:
-  hosts:
+  children:
     webserver:
-      ansible_host: 192.168.1.50
-   
-    
+      hosts:
+        webserver1:
+          ansible_host: 192.168.1.50
