@@ -1,6 +1,6 @@
 all:
   children:
-    webserver:          # group name
+    webservers:          # group name
       hosts:
         webserver:      # host name
           ansible_host: 192.168.1.50
